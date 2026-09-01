@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 1 та 2</title>
+
+    <!-- PNotify styles from cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pnotify/5.2.0/PNotify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pnotify/5.2.0/BrightTheme.min.css">
+
+    <!-- my styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1 -->
+    <section class="game-section">
+        <h1>Натисніть правильну клавішу!</h1>
+        <p>Поточна клавіша:</p>
+        <div id="key"></div>
+        <button id="new-game-btn">Нова гра</button>
+    </section>
+
+    <hr>
+
+    <!-- 2-->
+    <section class="chart-section">
+        <h2>Статистика продажів</h2>
+        <div class="chart-container">
+            <canvas id="sales-chart"></canvas>
+        </div>
+    </section>
+
+    <!-- libraries з cdnjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pnotify/5.2.0/PNotify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+
+    <!-- my scripts -->
+    <script src="game.js"></script>
+    <script src="chart.js"></script>
+</body>
+
+</html>
